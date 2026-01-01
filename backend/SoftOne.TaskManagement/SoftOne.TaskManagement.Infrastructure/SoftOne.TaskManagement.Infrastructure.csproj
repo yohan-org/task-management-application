@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoftOne.TaskManagement.Application\SoftOne.TaskManagement.Application.csproj" />
+    <ProjectReference Include="..\SoftOne.TaskManagement.Domain\SoftOne.TaskManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

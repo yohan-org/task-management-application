@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/backend/SoftOne.TaskManagement/.vs
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.API/obj
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Application/obj
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Common/obj
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Domain/obj
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Infrastructure/obj
