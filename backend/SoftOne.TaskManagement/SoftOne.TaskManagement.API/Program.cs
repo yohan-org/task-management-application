@@ -5,7 +5,6 @@ using SoftOne.TaskManagement.Application.Interfaces;
 using SoftOne.TaskManagement.Application.Mapping;
 using SoftOne.TaskManagement.Application.Services;
 using SoftOne.TaskManagement.Domain.Interfaces;
-using SoftOne.TaskManagement.Infrastructure;
 using SoftOne.TaskManagement.Infrastructure.Data;
 using SoftOne.TaskManagement.Infrastructure.Repositories;
 
@@ -18,7 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<TaskService>();
-builder.Services.AddScoped<IUserAuthenticationService, UserAuthenticationService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddAutoMapper(cfg =>
 {
     // Add each profile explicitly

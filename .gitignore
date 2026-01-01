@@ -8,3 +8,7 @@
 /backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Common/obj
 /backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Domain/obj
 /backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Infrastructure/obj
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.API/bin/Debug/net10.0
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Application/bin/Debug/net10.0
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Domain/bin/Debug/net10.0
+/backend/SoftOne.TaskManagement/SoftOne.TaskManagement.Infrastructure/bin/Debug/net10.0

@@ -1,10 +1,10 @@
-﻿using SoftOne.TaskManagement.Application.DTOs;
-using SoftOne.TaskManagement.Domain.Entities;
+﻿using SoftOne.TaskManagement.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using AutoMapper;
+using SoftOne.TaskManagement.Application.DTOs.TaskDTOs;
 
 namespace SoftOne.TaskManagement.Application.Mapping
 {

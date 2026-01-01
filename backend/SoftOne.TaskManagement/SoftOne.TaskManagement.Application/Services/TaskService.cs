@@ -1,4 +1,4 @@
-﻿using SoftOne.TaskManagement.Application.DTOs;
+﻿using SoftOne.TaskManagement.Application.DTOs.TaskDTOs;
 using SoftOne.TaskManagement.Domain.Entities;
 using SoftOne.TaskManagement.Domain.Interfaces;
 

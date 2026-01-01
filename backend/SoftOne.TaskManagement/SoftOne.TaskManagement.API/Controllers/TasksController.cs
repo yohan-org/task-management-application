@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SoftOne.TaskManagement.Application.DTOs;
+using SoftOne.TaskManagement.Application.DTOs.TaskDTOs;
 using SoftOne.TaskManagement.Application.Services;
 using SoftOne.TaskManagement.Domain.Entities;
 
