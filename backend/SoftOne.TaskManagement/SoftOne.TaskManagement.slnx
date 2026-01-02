@@ -2,7 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
-  <Project Path="SoftOne.TaskManagement.API/SoftOne.TaskManagement.API.csproj" />
+  <Project Path="SoftOne.TaskManagement.Api/SoftOne.TaskManagement.Api.csproj" />
   <Project Path="SoftOne.TaskManagement.Application/SoftOne.TaskManagement.Application.csproj" />
   <Project Path="SoftOne.TaskManagement.Common/SoftOne.TaskManagement.Common.csproj" />
   <Project Path="SoftOne.TaskManagement.Domain/SoftOne.TaskManagement.Domain.csproj" />

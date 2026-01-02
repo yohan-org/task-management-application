@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+/* src/styles.css or app.component.css */
+.app-container {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.navbar button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 4px 10px;
+  cursor: pointer;
+}

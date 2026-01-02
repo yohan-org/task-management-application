@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace SoftOne.TaskManagement.Application.DTOs
+namespace SoftOne.TaskManagement.Application.DTOs.TaskDTOs
 {
     public class CreateTaskDto
     {

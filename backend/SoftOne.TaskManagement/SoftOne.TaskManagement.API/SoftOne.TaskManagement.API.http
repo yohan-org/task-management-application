@@ -1,6 +1,6 @@
-@SoftOne.TaskManagement.API_HostAddress = http://localhost:5241
+@SoftOne.TaskManagement.Api_HostAddress = http://localhost:5170
 
-GET {{SoftOne.TaskManagement.API_HostAddress}}/weatherforecast/
+GET {{SoftOne.TaskManagement.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

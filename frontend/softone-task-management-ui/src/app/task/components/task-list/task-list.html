@@ -1,0 +1,18 @@
+<!-- src/app/task/components/task-list/task-list.html -->
+<div class="task-list">
+  <input type="text" placeholder="Search tasks..." [(ngModel)]="filterText" />
+  <select [(ngModel)]="sortOption">
+    <option value="title">Title</option>
+    <option value="description">Description</option>
+    <option value="isCompleted">Completed</option>
+  </select>
+
+  <ul>
+    <li *ngFor="let task of tasks | taskFilter:filterText | taskSort:sortOption">
+      <input type="checkbox" [(ngModel)]="task.isCompleted" (change)="toggleComplete(task)" />
+      <span [class.completed]="task.isCompleted">{{ task.title }}</span>
+      <button (click)="editTask(task.id)">Edit</button>
+      <button (click)="deleteTask(task.id)">Delete</button>
+    </li>
+  </ul>
+</div>

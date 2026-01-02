@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftOne.TaskManagement.Application.DTOs
+namespace SoftOne.TaskManagement.Application.DTOs.TaskDTOs
 {
     public class UpdateTaskDto
     {

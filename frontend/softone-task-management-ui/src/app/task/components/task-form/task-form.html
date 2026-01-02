@@ -1,0 +1,54 @@
+<!-- src/app/tasks/components/task-form/task-form.component.html -->
+<div class="task-form-container">
+  <h2>{{ isEditMode ? 'Edit Task' : 'Add New Task' }}</h2>
+
+  <form #taskForm="ngForm" (ngSubmit)="onSubmit()">
+
+    <!-- Task Title -->
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input
+        type="text"
+        id="title"
+        name="title"
+        [(ngModel)]="task.title"
+        required
+        placeholder="Enter task title"
+      />
+    </div>
+
+    <!-- Task Description -->
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea
+        id="description"
+        name="description"
+        [(ngModel)]="task.description"
+        placeholder="Enter task description"
+      ></textarea>
+    </div>
+
+    <!-- Completed Checkbox -->
+    <div class="form-group checkbox-group">
+      <input
+        type="checkbox"
+        id="isCompleted"
+        name="isCompleted"
+        [(ngModel)]="task.isCompleted"
+      />
+      <label for="isCompleted">Completed</label>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="form-actions">
+      <button type="submit" [disabled]="!taskForm.form.valid">
+        {{ isEditMode ? 'Update' : 'Add Task' }}
+      </button>
+      <button type="button" (click)="cancel()">Cancel</button>
+    </div>
+  </form>
+
+  <!-- Optional success/error messages -->
+  <p class="message success" *ngIf="successMessage">{{ successMessage }}</p>
+  <p class="message error" *ngIf="errorMessage">{{ errorMessage }}</p>
+</div>

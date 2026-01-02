@@ -1,0 +1,11 @@
+<!-- src/app/app.component.html -->
+<div class="app-container">
+  <!-- Optional: Global navbar -->
+  <nav class="navbar">
+    <span class="brand">SoftOne Task Management</span>
+    <a routerLink="/tasks" *ngIf="isLoggedIn()">Tasks</a>
+    <a routerLink="/auth/login" *ngIf="!isLoggedIn()">Login</a>
+    <button (click)="logout()" *ngIf="isLoggedIn()">Logout</button>
+  </nav>
+  <router-outlet />
+</div>

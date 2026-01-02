@@ -1,0 +1,43 @@
+.task-form-container {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.form-actions button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.message.success {
+  color: green;
+  margin-top: 10px;
+}
+
+.message.error {
+  color: red;
+  margin-top: 10px;
+}

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftOne.TaskManagement.Application.DTOs
+namespace SoftOne.TaskManagement.Domain.Entities
 {
-    public class TaskResponseDto
+    public class TaskItem
     {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
